@@ -1,0 +1,11 @@
+C:\Users\juand\Desktop\Integrador\comparing algorithms\ComparingSortingAlgorithms\C#\comparingAlgorithmsCSharp\comparingAlgorithmsCSharp\bin\Debug\netcoreapp2.1\comparingAlgorithmsCSharp.deps.json
+C:\Users\juand\Desktop\Integrador\comparing algorithms\ComparingSortingAlgorithms\C#\comparingAlgorithmsCSharp\comparingAlgorithmsCSharp\bin\Debug\netcoreapp2.1\comparingAlgorithmsCSharp.runtimeconfig.json
+C:\Users\juand\Desktop\Integrador\comparing algorithms\ComparingSortingAlgorithms\C#\comparingAlgorithmsCSharp\comparingAlgorithmsCSharp\bin\Debug\netcoreapp2.1\comparingAlgorithmsCSharp.runtimeconfig.dev.json
+C:\Users\juand\Desktop\Integrador\comparing algorithms\ComparingSortingAlgorithms\C#\comparingAlgorithmsCSharp\comparingAlgorithmsCSharp\bin\Debug\netcoreapp2.1\comparingAlgorithmsCSharp.dll
+C:\Users\juand\Desktop\Integrador\comparing algorithms\ComparingSortingAlgorithms\C#\comparingAlgorithmsCSharp\comparingAlgorithmsCSharp\bin\Debug\netcoreapp2.1\comparingAlgorithmsCSharp.pdb
+C:\Users\juand\Desktop\Integrador\comparing algorithms\ComparingSortingAlgorithms\C#\comparingAlgorithmsCSharp\comparingAlgorithmsCSharp\obj\Debug\netcoreapp2.1\comparingAlgorithmsCSharp.csprojAssemblyReference.cache
+C:\Users\juand\Desktop\Integrador\comparing algorithms\ComparingSortingAlgorithms\C#\comparingAlgorithmsCSharp\comparingAlgorithmsCSharp\obj\Debug\netcoreapp2.1\comparingAlgorithmsCSharp.csproj.CoreCompileInputs.cache
+C:\Users\juand\Desktop\Integrador\comparing algorithms\ComparingSortingAlgorithms\C#\comparingAlgorithmsCSharp\comparingAlgorithmsCSharp\obj\Debug\netcoreapp2.1\comparingAlgorithmsCSharp.AssemblyInfoInputs.cache
+C:\Users\juand\Desktop\Integrador\comparing algorithms\ComparingSortingAlgorithms\C#\comparingAlgorithmsCSharp\comparingAlgorithmsCSharp\obj\Debug\netcoreapp2.1\comparingAlgorithmsCSharp.AssemblyInfo.cs
+C:\Users\juand\Desktop\Integrador\comparing algorithms\ComparingSortingAlgorithms\C#\comparingAlgorithmsCSharp\comparingAlgorithmsCSharp\obj\Debug\netcoreapp2.1\comparingAlgorithmsCSharp.dll
+C:\Users\juand\Desktop\Integrador\comparing algorithms\ComparingSortingAlgorithms\C#\comparingAlgorithmsCSharp\comparingAlgorithmsCSharp\obj\Debug\netcoreapp2.1\comparingAlgorithmsCSharp.pdb
