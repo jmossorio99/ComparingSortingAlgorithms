@@ -5,7 +5,8 @@ def merge(arr1, left, mid, right):
     # break arr1 into two parts
     len1 = mid - left + 1
     len2 = right - mid
-    left_arr, right_arr = [], []
+    left_arr = []
+    right_arr = []
     for i in range(0, len1):
         left_arr.append(arr1[left + i])
     for i in range(0, len2):
