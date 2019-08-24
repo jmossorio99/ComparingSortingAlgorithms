@@ -9,3 +9,14 @@ C:\Users\juand\Desktop\Integrador\comparing algorithms\ComparingSortingAlgorithm
 C:\Users\juand\Desktop\Integrador\comparing algorithms\ComparingSortingAlgorithms\C#\comparingAlgorithmsCSharp\comparingAlgorithmsCSharp\obj\Debug\netcoreapp2.1\comparingAlgorithmsCSharp.AssemblyInfo.cs
 C:\Users\juand\Desktop\Integrador\comparing algorithms\ComparingSortingAlgorithms\C#\comparingAlgorithmsCSharp\comparingAlgorithmsCSharp\obj\Debug\netcoreapp2.1\comparingAlgorithmsCSharp.dll
 C:\Users\juand\Desktop\Integrador\comparing algorithms\ComparingSortingAlgorithms\C#\comparingAlgorithmsCSharp\comparingAlgorithmsCSharp\obj\Debug\netcoreapp2.1\comparingAlgorithmsCSharp.pdb
+F:\Jose\reposGit\Proyecto 4 Integrador\ComparingSortingAlgorithms\C#\comparingAlgorithmsCSharp\comparingAlgorithmsCSharp\bin\Debug\netcoreapp2.1\comparingAlgorithmsCSharp.deps.json
+F:\Jose\reposGit\Proyecto 4 Integrador\ComparingSortingAlgorithms\C#\comparingAlgorithmsCSharp\comparingAlgorithmsCSharp\bin\Debug\netcoreapp2.1\comparingAlgorithmsCSharp.runtimeconfig.json
+F:\Jose\reposGit\Proyecto 4 Integrador\ComparingSortingAlgorithms\C#\comparingAlgorithmsCSharp\comparingAlgorithmsCSharp\bin\Debug\netcoreapp2.1\comparingAlgorithmsCSharp.runtimeconfig.dev.json
+F:\Jose\reposGit\Proyecto 4 Integrador\ComparingSortingAlgorithms\C#\comparingAlgorithmsCSharp\comparingAlgorithmsCSharp\bin\Debug\netcoreapp2.1\comparingAlgorithmsCSharp.dll
+F:\Jose\reposGit\Proyecto 4 Integrador\ComparingSortingAlgorithms\C#\comparingAlgorithmsCSharp\comparingAlgorithmsCSharp\bin\Debug\netcoreapp2.1\comparingAlgorithmsCSharp.pdb
+F:\Jose\reposGit\Proyecto 4 Integrador\ComparingSortingAlgorithms\C#\comparingAlgorithmsCSharp\comparingAlgorithmsCSharp\obj\Debug\netcoreapp2.1\comparingAlgorithmsCSharp.csprojAssemblyReference.cache
+F:\Jose\reposGit\Proyecto 4 Integrador\ComparingSortingAlgorithms\C#\comparingAlgorithmsCSharp\comparingAlgorithmsCSharp\obj\Debug\netcoreapp2.1\comparingAlgorithmsCSharp.csproj.CoreCompileInputs.cache
+F:\Jose\reposGit\Proyecto 4 Integrador\ComparingSortingAlgorithms\C#\comparingAlgorithmsCSharp\comparingAlgorithmsCSharp\obj\Debug\netcoreapp2.1\comparingAlgorithmsCSharp.AssemblyInfoInputs.cache
+F:\Jose\reposGit\Proyecto 4 Integrador\ComparingSortingAlgorithms\C#\comparingAlgorithmsCSharp\comparingAlgorithmsCSharp\obj\Debug\netcoreapp2.1\comparingAlgorithmsCSharp.AssemblyInfo.cs
+F:\Jose\reposGit\Proyecto 4 Integrador\ComparingSortingAlgorithms\C#\comparingAlgorithmsCSharp\comparingAlgorithmsCSharp\obj\Debug\netcoreapp2.1\comparingAlgorithmsCSharp.dll
+F:\Jose\reposGit\Proyecto 4 Integrador\ComparingSortingAlgorithms\C#\comparingAlgorithmsCSharp\comparingAlgorithmsCSharp\obj\Debug\netcoreapp2.1\comparingAlgorithmsCSharp.pdb

@@ -9,6 +9,9 @@ namespace comparingAlgorithmsCSharp
     class Program
     {
 
+        private readonly String filePath1 = @"set100.txt";
+        private readonly String filePath2 = @"set1000.txt";
+        private readonly String filePath3 = @"set10000.txt";
         private String[] filePaths = new string[] {@".. \.. \set100.txt", @".. \.. \set1000.txt", @".. \.. \set10000.txt" };
         private static readonly DateTime dateTime = new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc);
         private Heapsort heapsort;
@@ -55,9 +58,9 @@ namespace comparingAlgorithmsCSharp
         {
             List<List<int>> answer= new List<List<int>>();
 
-            List<String> file1 = File.ReadAllLines(filePaths[0]).ToList();
-            List<String> file2 = File.ReadAllLines(filePaths[1]).ToList();
-            List<String> file3 = File.ReadAllLines(filePaths[2]).ToList();
+            List<String> file1 = File.ReadAllLines(filePath1).ToList();
+            List<String> file2 = File.ReadAllLines(filePath2).ToList();
+            List<String> file3 = File.ReadAllLines(filePath3).ToList();
 
             answer.Add(ListToArray(file1));
             answer.Add(ListToArray(file2));
