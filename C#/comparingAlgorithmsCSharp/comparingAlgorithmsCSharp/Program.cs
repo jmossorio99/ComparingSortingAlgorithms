@@ -8,7 +8,6 @@ namespace comparingAlgorithmsCSharp
 {
     class Program
     {
-        //private readonly String filePath = @".. \.. \dataset1000lines.csv";
 
         private String[] filePaths = new string[] {@".. \.. \set100.txt", @".. \.. \set1000.txt", @".. \.. \set10000.txt" };
         private static readonly DateTime dateTime = new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc);
@@ -16,19 +15,12 @@ namespace comparingAlgorithmsCSharp
         private Timsort timsort;
         private int countAux = 0;
 
-
         public Program()
         {
 
             List<List<int>> lists = readFiles();
             
-            timsort = new Timsort();
-           
-            List<int> test = new List<int>();
-            test.Add(4);
-            test.Add(3);
-            test.Add(2);
-            test.Add(1);
+            timsort = new Timsort();          
 
             long startTime = CurrentTimeMillis();
             List<int> resultPath1 = timsort.Sort(lists[0]);
@@ -65,7 +57,7 @@ namespace comparingAlgorithmsCSharp
 
             List<String> file1 = File.ReadAllLines(filePaths[0]).ToList();
             List<String> file2 = File.ReadAllLines(filePaths[1]).ToList();
-            List<String> file3 = File.ReadAllLines(filePaths[3]).ToList();
+            List<String> file3 = File.ReadAllLines(filePaths[2]).ToList();
 
             answer.Add(ListToArray(file1));
             answer.Add(ListToArray(file2));
