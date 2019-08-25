@@ -1,3 +1,4 @@
+package view;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -5,15 +6,18 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Arrays;
 
+import model.Heap;
+
 public class Main {
 
 	public static void main(String[] args) {
-		File file100 = new File("Data/set100.txt");
-		File file1000 = new File("Data/set1000.txt");
+		
 		File file10000 = new File("Data/set10000.txt");
-		readFile(file100, 100);
-		readFile(file1000, 1000);
-		readFile(file10000, 10000);
+		File file100000 = new File("Data/set100000.txt");
+		File file1000000 = new File("Data/set100000.txt");
+		executeAlgorithms(file10000, 10000);
+		executeAlgorithms(file100000, 100000);
+		executeAlgorithms(file1000000, 1000000);
 //		int[] test1 = {9,8,7,6,5,4,3,2,1,0};
 //		int[] test2 = {9,8,7,6,5,4,3,2,1,0};
 //		Heap heap = new Heap(test1, test1.length + 2);
@@ -30,7 +34,7 @@ public class Main {
 //		System.out.print("]");
 	}
 
-	public static void readFile(File file, int size) {
+	public static void executeAlgorithms(File file, int size) {
 		
 		try {
 			BufferedReader buff = new BufferedReader(new FileReader(file));
