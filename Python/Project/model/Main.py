@@ -12,12 +12,12 @@ def main():
 
     import time
     from model.DataManager import DataManager
-    from model.TimSort import TimSort
     from model.HeapSort import HeapSort
+    from model.AVLTree import AVLNode
+    from model.AVLTree import AVLTree
 
     # instantiate objects to read and sort
     dm = DataManager()
-    tim_sorter = TimSort()
 
     # read the files
     array_1 = dm.read_file1()
@@ -25,11 +25,10 @@ def main():
     array_3 = dm.read_file3()
 
     print("--------------------HeapSort Algorithm-------------------------------------------------------------------")
-    print(array_1)
     heap_sorter = HeapSort(len(array_1))
     print("\n")
     start_time = time.time()
-    print(heap_sorter.sort(array_1))
+    heap_sorter.sort(array_1)
     end_time = time.time()
     total_time = end_time - start_time
     print("Total time elapsed while sorting array of 10000 integers: ")
@@ -38,7 +37,7 @@ def main():
     heap_sorter = HeapSort(len(array_2))
     print("\n")
     start_time = time.time()
-    print(heap_sorter.sort(array_2))
+    heap_sorter.sort(array_2)
     end_time = time.time()
     total_time = end_time - start_time
     print("Total time elapsed while sorting array of 100000 integers: ")
@@ -47,40 +46,49 @@ def main():
     heap_sorter = HeapSort(len(array_3))
     print("\n")
     start_time = time.time()
-    print(heap_sorter.sort(array_3))
+    heap_sorter.sort(array_3)
     end_time = time.time()
     total_time = end_time - start_time
     print("Total time elapsed while sorting array of 1000000 integers: ")
     print(total_time)
     print("--------------------HeapSort Algorithm------------------------------------------------------------------")
 
-    print("--------------------TimSort Algorithm-------------------------------------------------------------------")
     print("\n")
-    print(array_1)
+    print("--------------------TreeSort Algorithm------------------------------------------------------------------")
     start_time = time.time()
-    tim_sorter.tim_sort(array_1)
+    tree = AVLTree()
+    for i in range(0, len(array_1)):
+        tree.insert(array_1[i])
+    sorted_arr = []
+    tree.in_order(tree.root, sorted_arr)
     end_time = time.time()
     total_time = end_time - start_time
-    print(array_1)
     print("Total time elapsed while sorting array of 10000 integers: ")
     print(total_time)
 
-    print("\n")
     start_time = time.time()
-    tim_sorter.tim_sort(array_2)
+    tree = AVLTree()
+    for i in range(0, len(array_2)):
+        tree.insert(array_2[i])
+    sorted_arr = []
+    tree.in_order(tree.root, sorted_arr)
     end_time = time.time()
     total_time = end_time - start_time
     print("Total time elapsed while sorting array of 100000 integers: ")
     print(total_time)
 
-    print("\n")
     start_time = time.time()
-    tim_sorter.tim_sort(array_3)
+    tree = AVLTree()
+    for i in range(0, len(array_3)):
+        tree.insert(array_3[i])
+    sorted_arr = []
+    tree.in_order(tree.root, sorted_arr)
     end_time = time.time()
     total_time = end_time - start_time
     print("Total time elapsed while sorting array of 1000000 integers: ")
     print(total_time)
-    print("--------------------TimSort Algorithm-------------------------------------------------------------------")
+    print("--------------------TreeSort Algorithm------------------------------------------------------------------")
+
 
 
 if __name__ == "__main__":
