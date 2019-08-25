@@ -17,44 +17,31 @@ def main():
     # print unsorted array and then print sorted
     print("--------------------TimSort Algorithm-------------------------------------------------------------------")
     print("\n")
-    print("Showing unsorted array number 1, then showing it sorted and showing the time it takes to sort")
-    print("Unsorted array of 10000 integers: ")
-    print(array_1)
     start_time = time.time()
     tim_sorter.tim_sort(array_1)
     end_time = time.time()
     total_time = end_time - start_time
-    print("Sorted array of 10000 integers: ")
-    print(array_1)
-    print("Total time elapsed while sorting: ")
+    print("Total time elapsed while sorting array of 10000 integers: ")
     print(total_time)
 
     print("\n")
 
     # print unsorted array and then print sorted
-    print("Unsorted array of 100 integers: ")
-    print(array_2)
     start_time = time.time()
     tim_sorter.tim_sort(array_2)
     end_time = time.time()
     total_time = end_time - start_time
-    print("Sorted array of 100 integers: ")
-    print(array_2)
-    print("Total time elapsed while sorting: ")
+    print("Total time elapsed while sorting array of 100000 integers: ")
     print(total_time)
 
     print("\n")
 
     # print unsorted array and then print sorted
-    print("Unsorted array of 1000 integers: ")
-    print(array_3)
     start_time = time.time()
     tim_sorter.tim_sort(array_3)
     end_time = time.time()
     total_time = end_time - start_time
-    print("Sorted array of 1000 integers: ")
-    print(array_3)
-    print("Total time elapsed while sorting: ")
+    print("Total time elapsed while sorting array of 1000000 integers: ")
     print(total_time)
     print("\n")
     print("--------------------TimSort Algorithm-------------------------------------------------------------------")
