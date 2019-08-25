@@ -4,7 +4,7 @@ import os.path
 class DataManager:
 
     my_path = os.path.dirname(__file__)
-    path_10 = os.path.join(my_path, "../data/set10.txt")
+    path_10000 = os.path.join(my_path, "../data/set10000.txt")
     path_100 = os.path.join(my_path, "../data/set100.txt")
     path_1000 = os.path.join(my_path, "../data/set1000.txt")
 
@@ -13,7 +13,7 @@ class DataManager:
 
     def read_file1(self):
 
-        with open(self.path_10, 'r') as f:
+        with open(self.path_10000, 'r') as f:
             output = []
             for line in f.readlines():
                 output.append(int(line))
