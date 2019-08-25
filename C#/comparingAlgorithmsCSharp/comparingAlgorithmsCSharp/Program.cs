@@ -23,23 +23,56 @@ namespace comparingAlgorithmsCSharp
 
             List<int[]> lists = readFiles();
             
+            //Timsort-------------------------------------------------------------------------------------------
+
             timsort = new Timsort();          
 
             long startTime = CurrentTimeMillis();            
-            List<int> resultPath1 = timsort.Sort(lists[0]);           
-            long totalTimePath1 = CurrentTimeMillis() - startTime;
+            List<int> resultPath1Timsort = timsort.Sort(lists[0]);           
+            long totalTimePath1Timsort = CurrentTimeMillis() - startTime;
 
             startTime = CurrentTimeMillis();           
-            List<int> resultPath2 = timsort.Sort(lists[1]);        
-            long totalTimePath2 = CurrentTimeMillis() - startTime;
+            List<int> resultPath2Timsort = timsort.Sort(lists[1]);        
+            long totalTimePath2Timsort = CurrentTimeMillis() - startTime;
 
             startTime = CurrentTimeMillis();
-            List<int> resultPath3 = timsort.Sort(lists[2]);
-            long totalTimePath3 = CurrentTimeMillis() - startTime;
+            List<int> resultPath3Timsort = timsort.Sort(lists[2]);
+            long totalTimePath3Timsort = CurrentTimeMillis() - startTime;
 
-            Console.WriteLine("time with 100 elements = " + totalTimePath1);
-            Console.WriteLine("time with 1000 elements = " + totalTimePath2);
-            Console.WriteLine("time with 10000 elements = " + totalTimePath3);
+            Console.WriteLine("time with 100 elements Timsort = " + totalTimePath1Timsort);
+            Console.WriteLine("time with 1000 elements Timsort = " + totalTimePath2Timsort);
+            Console.WriteLine("time with 10000 elements Timsort = " + totalTimePath3Timsort);
+
+            // Heapsort-------------------------------------------------------------------------------------------
+
+            //100
+
+            heapsort = new Heapsort(100);
+
+            startTime = CurrentTimeMillis();
+            List<int> resultPath1HeapSort = heapsort.Sort(lists[0]);
+            long totalTimePath1Heapsort = CurrentTimeMillis() - startTime;
+
+            //1000
+
+            heapsort = new Heapsort(1000);
+
+            startTime = CurrentTimeMillis();
+            List<int> resultPath2Heapsort = heapsort.Sort(lists[1]);
+            long totalTimePath2Heapsort = CurrentTimeMillis() - startTime;
+
+            //10000
+
+            heapsort = new Heapsort(10000);
+
+            startTime = CurrentTimeMillis();
+            List<int> resultPath3Heapsort = heapsort.Sort(lists[2]);
+            long totalTimePath3Heapsort = CurrentTimeMillis() - startTime;
+
+            Console.WriteLine("");
+            Console.WriteLine("time with 100 elements Heapsort = " + totalTimePath1Heapsort);
+            Console.WriteLine("time with 1000 elements Heapsort = " + totalTimePath2Heapsort);
+            Console.WriteLine("time with 10000 elements Heapsort = " + totalTimePath3Heapsort);
         }
 
         static void Main(string[] args)

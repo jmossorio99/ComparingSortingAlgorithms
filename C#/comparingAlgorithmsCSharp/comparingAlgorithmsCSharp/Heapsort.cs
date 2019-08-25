@@ -7,22 +7,37 @@ namespace comparingAlgorithmsCSharp
    
         class Heapsort
     {
-        private int[] array1;
-        private int[] array2;
-        private int[] array3;
 
-        public Heapsort(int[]array1,int[] array2, int[]array3)
+        private MinHeap heap;
+
+
+        public Heapsort(int maxSize)
         {
 
-            this.array1 = array1;
-            this.array2 = array2;
-            this.array3 = array3;
+            heap = new MinHeap(maxSize);
 
         }
 
-        public int[] Sort()
+        public List<int> Sort(int[] list)
         {
-            return null;
+
+            List<int> sortList = new List<int>();
+
+            foreach (int i in list)
+            {
+
+                heap.Add(i);
+
+            }
+
+            while (heap.IsEmpty()==false)
+            {
+
+                sortList.Add(heap.Pop());
+
+            }
+
+            return sortList;
         }
     }
 }
