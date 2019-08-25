@@ -11,8 +11,7 @@ namespace comparingAlgorithmsCSharp
 
         private readonly String filePath1 = @"set100.txt";
         private readonly String filePath2 = @"set1000.txt";
-        private readonly String filePath3 = @"set10000.txt";
-        private String[] filePaths = new string[] {@".. \.. \set100.txt", @".. \.. \set1000.txt", @".. \.. \set10000.txt" };
+        private readonly String filePath3 = @"set10000 ant.txt";
         private static readonly DateTime dateTime = new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc);
         private Heapsort heapsort;
         private Timsort timsort;
@@ -50,7 +49,7 @@ namespace comparingAlgorithmsCSharp
             heapsort = new Heapsort(100);
 
             startTime = CurrentTimeMillis();
-            List<int> resultPath1HeapSort = heapsort.Sort(lists[0]);
+            List<int> resultPath1Heapsort = heapsort.Sort(lists[0]);
             long totalTimePath1Heapsort = CurrentTimeMillis() - startTime;
 
             //1000
@@ -73,6 +72,8 @@ namespace comparingAlgorithmsCSharp
             Console.WriteLine("time with 100 elements Heapsort = " + totalTimePath1Heapsort);
             Console.WriteLine("time with 1000 elements Heapsort = " + totalTimePath2Heapsort);
             Console.WriteLine("time with 10000 elements Heapsort = " + totalTimePath3Heapsort);
+
+           // ListIntToString(resultPath3Heapsort);
         }
 
         static void Main(string[] args)
@@ -113,6 +114,7 @@ namespace comparingAlgorithmsCSharp
             
             foreach (var line in list)
             {
+
                 int temp = Int32.Parse(line);
 
                 
@@ -121,9 +123,18 @@ namespace comparingAlgorithmsCSharp
 
             }
 
-
             countAux = 0;
             return convertedList;
+        }
+
+        public void ListIntToString(List<int> list           )
+        {
+
+            foreach (int i in list)
+            {
+                Console.WriteLine(""+i);
+            }
+
         }
     }
 }
