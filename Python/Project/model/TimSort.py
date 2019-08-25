@@ -47,6 +47,7 @@ class TimSort:
 
     def tim_sort(self, arr):
 
+        # run is the size of the intervals that will be sorted with insertion sort, and then they will all be merged
         run = 64
         for i in range(0, len(arr), run):
             # this sorts the sub array from 0 to run
