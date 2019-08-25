@@ -16,17 +16,18 @@ namespace comparingAlgorithmsCSharp
             firstIteration = true;
         }
 
-        public List<int> Sort(List<int> array)
+        public List<int> Sort(int[] array)
         {
-
+    
             List<int> sortedArray = new List<int>();
 
             foreach(int num in array)
-            {              
+            { 
 
                 Insert(num,sortedArray,0,maxPosition);
                  
             }
+
             maxPosition = -1;
             firstIteration = false;
             return sortedArray;
@@ -39,12 +40,16 @@ namespace comparingAlgorithmsCSharp
                 sortedArray.Add(number);
                 maxPosition++;
                 firstIteration = false;
+
+                
             }
 
             else
             {
+                
                 int mid = (inf + sup) / 2;
-
+                
+               
                 //situation 1 - number is smaller than the middle
                 if (number < sortedArray[mid])
                 {
@@ -54,6 +59,7 @@ namespace comparingAlgorithmsCSharp
                         sortedArray.Insert(0, number);
                         
                         maxPosition++;
+                        
                     }
 
                     //there are more elements left side
@@ -63,12 +69,15 @@ namespace comparingAlgorithmsCSharp
                         // left one is smaller than number
                         if (sortedArray[mid - 1] < number)
                         {
+                            
                             sortedArray.Insert(mid, number);
                             maxPosition++;
+                            
                         }
                         // need to split
                         else
                         {
+                           
                             Insert(number, sortedArray, inf, mid);
                         }
 
@@ -78,12 +87,14 @@ namespace comparingAlgorithmsCSharp
                 // situation 2 - number is bigger or same as middle
                 else
                 {
-
+                    
                     // no more elements on right
-                    if (mid == maxPosition)
+                    if (mid +1== maxPosition)
                     {
                         sortedArray.Add(number);
                         maxPosition++;
+
+                       
                     }
 
                     //there are more elements right side
@@ -99,7 +110,7 @@ namespace comparingAlgorithmsCSharp
                         // need to split
                         else
                         {
-                            Insert(number, sortedArray, mid, sup);
+                            Insert(number, sortedArray, mid+1, sup);
                         }
                     }
 

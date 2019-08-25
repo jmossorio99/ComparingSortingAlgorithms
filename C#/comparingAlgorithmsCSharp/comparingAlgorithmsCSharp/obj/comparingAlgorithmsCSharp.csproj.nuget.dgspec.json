@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Jose\\reposGit\\Proyecto 4 Integrador\\ComparingSortingAlgorithms\\C#\\comparingAlgorithmsCSharp\\comparingAlgorithmsCSharp\\comparingAlgorithmsCSharp.csproj": {}
+    "C:\\Users\\juand\\Desktop\\Integrador\\comparing algorithms\\ComparingSortingAlgorithms\\C#\\comparingAlgorithmsCSharp\\comparingAlgorithmsCSharp\\comparingAlgorithmsCSharp.csproj": {}
   },
   "projects": {
-    "F:\\Jose\\reposGit\\Proyecto 4 Integrador\\ComparingSortingAlgorithms\\C#\\comparingAlgorithmsCSharp\\comparingAlgorithmsCSharp\\comparingAlgorithmsCSharp.csproj": {
+    "C:\\Users\\juand\\Desktop\\Integrador\\comparing algorithms\\ComparingSortingAlgorithms\\C#\\comparingAlgorithmsCSharp\\comparingAlgorithmsCSharp\\comparingAlgorithmsCSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Jose\\reposGit\\Proyecto 4 Integrador\\ComparingSortingAlgorithms\\C#\\comparingAlgorithmsCSharp\\comparingAlgorithmsCSharp\\comparingAlgorithmsCSharp.csproj",
+        "projectUniqueName": "C:\\Users\\juand\\Desktop\\Integrador\\comparing algorithms\\ComparingSortingAlgorithms\\C#\\comparingAlgorithmsCSharp\\comparingAlgorithmsCSharp\\comparingAlgorithmsCSharp.csproj",
         "projectName": "comparingAlgorithmsCSharp",
-        "projectPath": "F:\\Jose\\reposGit\\Proyecto 4 Integrador\\ComparingSortingAlgorithms\\C#\\comparingAlgorithmsCSharp\\comparingAlgorithmsCSharp\\comparingAlgorithmsCSharp.csproj",
-        "packagesPath": "C:\\Users\\joseo\\.nuget\\packages\\",
-        "outputPath": "F:\\Jose\\reposGit\\Proyecto 4 Integrador\\ComparingSortingAlgorithms\\C#\\comparingAlgorithmsCSharp\\comparingAlgorithmsCSharp\\obj\\",
+        "projectPath": "C:\\Users\\juand\\Desktop\\Integrador\\comparing algorithms\\ComparingSortingAlgorithms\\C#\\comparingAlgorithmsCSharp\\comparingAlgorithmsCSharp\\comparingAlgorithmsCSharp.csproj",
+        "packagesPath": "C:\\Users\\juand\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\juand\\Desktop\\Integrador\\comparing algorithms\\ComparingSortingAlgorithms\\C#\\comparingAlgorithmsCSharp\\comparingAlgorithmsCSharp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\joseo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juand\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -42,7 +42,6 @@
         "netcoreapp2.1": {
           "dependencies": {
             "Microsoft.NETCore.App": {
-              "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true

@@ -21,16 +21,16 @@ namespace comparingAlgorithmsCSharp
         public Program()
         {
 
-            List<List<int>> lists = readFiles();
+            List<int[]> lists = readFiles();
             
             timsort = new Timsort();          
 
-            long startTime = CurrentTimeMillis();
-            List<int> resultPath1 = timsort.Sort(lists[0]);
+            long startTime = CurrentTimeMillis();            
+            List<int> resultPath1 = timsort.Sort(lists[0]);           
             long totalTimePath1 = CurrentTimeMillis() - startTime;
 
-            startTime = CurrentTimeMillis();
-            List<int> resultPath2 = timsort.Sort(lists[1]);
+            startTime = CurrentTimeMillis();           
+            List<int> resultPath2 = timsort.Sort(lists[1]);        
             long totalTimePath2 = CurrentTimeMillis() - startTime;
 
             startTime = CurrentTimeMillis();
@@ -38,8 +38,8 @@ namespace comparingAlgorithmsCSharp
             long totalTimePath3 = CurrentTimeMillis() - startTime;
 
             Console.WriteLine("time with 100 elements = " + totalTimePath1);
-            Console.WriteLine("time with 1000 elements"+totalTimePath2);
-            Console.WriteLine("time with 10000 elements"+totalTimePath3);
+            Console.WriteLine("time with 1000 elements = " + totalTimePath2);
+            Console.WriteLine("time with 10000 elements = " + totalTimePath3);
         }
 
         static void Main(string[] args)
@@ -54,33 +54,38 @@ namespace comparingAlgorithmsCSharp
             return (long)(DateTime.UtcNow - dateTime).TotalMilliseconds;
         }
 
-        public List<List<int>> readFiles()
+        public List<int[]> readFiles()
         {
-            List<List<int>> answer= new List<List<int>>();
+            List<int[]> answer= new List<int[]>();
 
             List<String> file1 = File.ReadAllLines(filePath1).ToList();
             List<String> file2 = File.ReadAllLines(filePath2).ToList();
             List<String> file3 = File.ReadAllLines(filePath3).ToList();
 
+           
             answer.Add(ListToArray(file1));
+            
             answer.Add(ListToArray(file2));
+            
             answer.Add(ListToArray(file3));
 
             return answer;
         }
 
-        public List<int> ListToArray(List<String> list)
+        public int[] ListToArray(List<String> list)
         {
-
-            List<int> convertedList = new List<int>();
+            
+           int[] convertedList = new int[list.Count];
 
             
             foreach (var line in list)
             {
+                int temp = Int32.Parse(line);
 
-                convertedList[countAux] = Convert.ToInt32(line);
+                
+                convertedList[countAux] = temp;
                 countAux++;
-  
+
             }
 
 
