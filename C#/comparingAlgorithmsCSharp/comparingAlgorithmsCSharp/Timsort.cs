@@ -89,7 +89,7 @@ namespace comparingAlgorithmsCSharp
                 {
                     
                     // no more elements on right
-                    if (mid +1== maxPosition)
+                    if (mid + 1== maxPosition)
                     {
                         sortedArray.Add(number);
                         maxPosition++;
@@ -101,6 +101,8 @@ namespace comparingAlgorithmsCSharp
                     else
                     {
                         // number is smaller that next on right
+                        //Console.WriteLine("number = "+number+" mid "+mid+" aray[mid+1]= " + maxPosition);
+
                         if (number < sortedArray[mid + 1])
                         {
                             sortedArray.Insert(mid + 1, number);
