@@ -16,18 +16,19 @@ public class Main {
 		File file10000 = new File("Data/set10000.txt");
 		File file100000 = new File("Data/set100000.txt");
 		File file1000000 = new File("Data/set1000000.txt");
+		double equivalnece = 1000.0;
 		long timeTaken11 = executeAlgorithms(file10000, 10000, 1);
-		System.out.println("Heapsort takes: " + timeTaken11);
+		System.out.println("Heapsort takes for 10000: " + (timeTaken11/equivalnece) + "s");
 		long timeTaken12 = executeAlgorithms(file10000, 10000, 0);
-		System.out.println("Treesort takes: " + timeTaken12);
+		System.out.println("Treesort takes for 10000: " + (timeTaken12/equivalnece) + "s");
 		long timeTaken21 = executeAlgorithms(file100000, 100000, 1);
-		System.out.println("Heapsort takes: " + timeTaken21);
+		System.out.println("Heapsort takes for 100000: " + (timeTaken21/equivalnece) + "s");
 		long timeTaken22 = executeAlgorithms(file100000, 100000, 0);
-		System.out.println("Treesort takes: " + timeTaken22);
+		System.out.println("Treesort takes for 100000: " + (timeTaken22/equivalnece) + "s");
 		long timeTaken31 = executeAlgorithms(file1000000, 1000000, 1);
-		System.out.println("Heapsort takes: " + timeTaken31);
+		System.out.println("Heapsort takes for 1000000: " + (timeTaken31/equivalnece) + "s");
 		long timeTaken32 = executeAlgorithms(file1000000, 1000000, 0);
-		System.out.println("Treesort takes: " + timeTaken32);
+		System.out.println("Treesort takes for 1000000: " + (timeTaken32/equivalnece) + "s");
 	}
 
 	public static void print(int[] arr, int n) {
