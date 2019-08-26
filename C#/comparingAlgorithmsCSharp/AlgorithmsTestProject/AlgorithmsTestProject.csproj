@@ -49,10 +49,14 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AVLNode.cs" />
+    <Compile Include="AVLTree.cs" />
     <Compile Include="Heapsort.cs" />
     <Compile Include="HeapsortTest.cs" />
     <Compile Include="MinHeap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Treesort.cs" />
+    <Compile Include="TreesortTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

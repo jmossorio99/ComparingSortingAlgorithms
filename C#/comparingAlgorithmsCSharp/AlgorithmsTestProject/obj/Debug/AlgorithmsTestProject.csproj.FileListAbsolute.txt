@@ -1,0 +1,14 @@
+C:\Users\juand\Desktop\Integrador\comparing algorithms\ComparingSortingAlgorithms\C#\comparingAlgorithmsCSharp\AlgorithmsTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\juand\Desktop\Integrador\comparing algorithms\ComparingSortingAlgorithms\C#\comparingAlgorithmsCSharp\AlgorithmsTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\juand\Desktop\Integrador\comparing algorithms\ComparingSortingAlgorithms\C#\comparingAlgorithmsCSharp\AlgorithmsTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\juand\Desktop\Integrador\comparing algorithms\ComparingSortingAlgorithms\C#\comparingAlgorithmsCSharp\AlgorithmsTestProject\bin\Debug\AlgorithmsTestProject.dll
+C:\Users\juand\Desktop\Integrador\comparing algorithms\ComparingSortingAlgorithms\C#\comparingAlgorithmsCSharp\AlgorithmsTestProject\bin\Debug\AlgorithmsTestProject.pdb
+C:\Users\juand\Desktop\Integrador\comparing algorithms\ComparingSortingAlgorithms\C#\comparingAlgorithmsCSharp\AlgorithmsTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\juand\Desktop\Integrador\comparing algorithms\ComparingSortingAlgorithms\C#\comparingAlgorithmsCSharp\AlgorithmsTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\juand\Desktop\Integrador\comparing algorithms\ComparingSortingAlgorithms\C#\comparingAlgorithmsCSharp\AlgorithmsTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\juand\Desktop\Integrador\comparing algorithms\ComparingSortingAlgorithms\C#\comparingAlgorithmsCSharp\AlgorithmsTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\juand\Desktop\Integrador\comparing algorithms\ComparingSortingAlgorithms\C#\comparingAlgorithmsCSharp\AlgorithmsTestProject\obj\Debug\AlgorithmsTestProject.csprojAssemblyReference.cache
+C:\Users\juand\Desktop\Integrador\comparing algorithms\ComparingSortingAlgorithms\C#\comparingAlgorithmsCSharp\AlgorithmsTestProject\obj\Debug\AlgorithmsTestProject.csproj.CoreCompileInputs.cache
+C:\Users\juand\Desktop\Integrador\comparing algorithms\ComparingSortingAlgorithms\C#\comparingAlgorithmsCSharp\AlgorithmsTestProject\obj\Debug\AlgorithmsTestProject.csproj.CopyComplete
+C:\Users\juand\Desktop\Integrador\comparing algorithms\ComparingSortingAlgorithms\C#\comparingAlgorithmsCSharp\AlgorithmsTestProject\obj\Debug\AlgorithmsTestProject.dll
+C:\Users\juand\Desktop\Integrador\comparing algorithms\ComparingSortingAlgorithms\C#\comparingAlgorithmsCSharp\AlgorithmsTestProject\obj\Debug\AlgorithmsTestProject.pdb
