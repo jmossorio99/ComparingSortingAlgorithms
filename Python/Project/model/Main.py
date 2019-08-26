@@ -13,7 +13,6 @@ def main():
     import time
     from model.DataManager import DataManager
     from model.HeapSort import HeapSort
-    from model.AVLTree import AVLNode
     from model.AVLTree import AVLTree
 
     # instantiate objects to read and sort
@@ -88,7 +87,6 @@ def main():
     print("Total time elapsed while sorting array of 1000000 integers: ")
     print(total_time)
     print("--------------------TreeSort Algorithm------------------------------------------------------------------")
-
 
 
 if __name__ == "__main__":
